@@ -2,18 +2,19 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 90%;
+title {
+    width: 100%;
+    position: fixed;
+}
+
+header {
+    text-align: center;
+    font-family: "Georgia", Times, serif;
 }
 
 .grid {
@@ -28,7 +29,6 @@ body, html {
 }
 
 .grid img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    display: block;
 }
